@@ -1,9 +1,13 @@
+import Header from '@/components/header/Header';
 
+import React from 'react';
 
-export default function ContactUs() {
+const ContactUs: React.FC = () => {
     return (
-        <><h1>hellow</h1>
-        </>
-    )
-    
+        <div className="bg-white color-black p-4 font-semibold">
+            <Header />
+        </div>
+    );
 }
+
+export default ContactUs;
