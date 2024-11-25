@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface IconBasketProps {
-  isBlack: boolean; // пропс для визначення активності
+  isBlack: boolean; 
 }
 
 const IconBasket: React.FC<IconBasketProps> = ({ isBlack }) => {
