@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             </ul>
             </div>                
             <div className="flex justify-around lg:w-1/3 w-full">
-            <ul className="gap-[2rem] px-[0.5rem] whitespace-nowrap min-w-[250px] sm:min-w-[250px] md:min-w-[250px] lg:min-w-0">
+            <ul className="gap-[2rem] px-[0.5rem] whitespace-nowrap mr-[15%] sm:mr-[16%] md:mr-[18%] lg:mr-0">
                 <li className="mb-[1rem]"><Link href="" className="font-semibold text-base mb-[1rem]">Legal</Link></li>
                 <li className="mb-[1rem]"><Link href="" className="mb-[1rem]">Privacy Policy</Link></li>
                 <li className="mb-[1rem]"><Link href="" className="mb-[1rem]">Terms & Services</Link></li>
