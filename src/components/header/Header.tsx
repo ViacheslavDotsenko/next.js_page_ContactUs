@@ -65,9 +65,7 @@ const Header: React.FC = () => {
           {isMobile && <IconBurger isShow={isShowBurger} />}
         </div>
       </div>
-      {isMenuOpen && (
-        <div
-          
+      {isMenuOpen && ( <div          
           className="w-[100vw] h-[100vh] backdrop-blur-sm  text-white p-[1rem] fixed top-0 left-0 z-50"
         >
           <div ref={menuRef} className="h-[300px] bg-[black] p-[1rem] pl-[2rem]">
