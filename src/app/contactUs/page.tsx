@@ -1,6 +1,6 @@
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
-import ConactContent from '@/components/contact/ContactContent';
+import ConactContent from '@/components/contactContent/ContactContent';
 
 import React from 'react';
 
