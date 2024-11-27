@@ -11,6 +11,7 @@ const IconBasket: React.FC<IconBasketProps> = ({ isBlack }) => {
       height="32"
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"
+      className="transition-all duration-300 hover:invert"
       style={{
         transition: 'all 0.3s ease',
       }}
