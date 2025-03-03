@@ -20,7 +20,7 @@ const EmailForm: React.FC = () => {
       // Очистка поля вводу після успішного надсилання
       setEmail("");
       setError(null); // Скидаємо помилку після успішного надсилання
-    } catch (err) {
+    } catch {
       setError("Failed to send email. Please try again.");
     }
   };
